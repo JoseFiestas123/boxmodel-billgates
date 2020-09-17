@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 39em;
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+body{
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.menu-principal{
+	width: 100%;
+	height:70px;
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+	box-shadow: 1px 1px 7px 1px #202020;
+	position: fixed;
+}
+
+.logo-superior{
+    font-family: 'Kufam', cursive;
+	color: #303030;
+	font-size: 20px;
+	padding: 15px 15px;
+}
+
+.menu-principal ul li{
+	font-family: 'Kufam', cursive;
+	display: inline-block;
+}
+
+.menu-principal ul{
+   float: right;
+   margin-right: 50px;
+   margin-top: -38px;
+}
+
+
+.menu-principal ul li a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px;
+}
+
+
+.img-bill-gates img{
+	width: 430px;
+	display: flex;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.titulo-principal{
+	text-align: center;
+}
+
+.linea-separadora{
+	width: 300px;
+	margin: 0 auto;
+	display: flex;
+	box-shadow: 1px 1px 4px 1px #202020;
+}
+
+.titulo-principal h1{
+     font-family: 'Kufam', cursive;
+	color: #303030;
+	font-size: 45px;
+}
+
+.titulo-principal p{
+	font-family: 'Kufam', cursive;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+
+/*info-historia-bill-gates*/
+
+
+.info-historia-bill-gates{
+	width: 950px;
+	height: 114.5em;
+	background: #fff;
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.img-one-bill img{
+	padding-top: 15px;
+	padding-right: 15px;
+	float: right;
+	display: flex;
+}
+
+.parrafo-inicio-bill p{
+	font-family: 'Kufam', cursive;
+	color: #202020;
+	font-size: 17px;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+
+.parrafo-segundo-bill p{
+	font-family: 'Kufam', cursive;
+	color: #202020;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.parrafo-segundo-bill h3{
+	font-family: 'Kufam', cursive;
+	color:#66a6ff;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.img-two-resumen img{
+	padding-left: 15px;
+	padding-right: 10px;
+	float: left;
+	display: flex;
+	margin-top: 50px;
+}
+
+.two-resumen {
+	margin-top:55px;
+}
+
+.parrafo-tercero-bill p{
+   font-family: 'Kufam', cursive;
+	color: #202020;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.img-three-resumen img{
+	padding-right: 15px;
+   float: right;
+	display: flex;
+	margin-top: 50px;
+}
+
+.parrafo-inicio-bill h3{
+   font-family: 'Kufam', cursive;
+	color: #66a6ff;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+.parrafo-tercero-bill h3{
+   font-family: 'Kufam', cursive;
+	color: #66a6ff;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.img-four-resumen img{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+    float: left;
+	display: flex;
+}
+
+.parrafo-cuarto-bill p{
+   font-family: 'Kufam', cursive;
+	color: #202020;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+.menu-principal li a:hover{
+	border-bottom: 3px solid #202020;
+}
